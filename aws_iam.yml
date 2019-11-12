@@ -1,5 +1,5 @@
 - name: Manage IAM users and groups
-  hosts: all
+  hosts: localhost
   vars_files:
     - 'vars/groups.yml'
     - 'vars/users.yml'
